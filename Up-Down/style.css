@@ -1,0 +1,93 @@
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg, #dd2b2b, #2531db);
+    background-size: 200% 200%;
+    animation: gradient 15s ease infinite;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 20px;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#cunteiner {
+    width: 15%;
+    height: 20rem;
+    position: relative;
+    left: 43%;
+    top: 17%;
+    display: inline-block;
+}
+
+button,
+input {
+    width: 10rem;
+    height: 5rem;
+    margin-bottom: 10%;
+}
+
+button {
+    background: linear-gradient(145deg, #dd2b2b, #2531db);
+    background-size: 200% 200%;
+    animation: gradient 15s ease infinite;
+    font-size: 75px;
+    border-radius: 5em;
+    cursor: pointer;
+    box-shadow: 0 8px 2px -2px white;
+    border: 1px solid white;
+}
+
+input {
+    text-align: center;
+    border: none;
+    border-radius: 2em;
+    background: linear-gradient(145deg, #dd2b2b, #2531db);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    color: rgb(230, 230, 231);
+    box-shadow: 0 0 3px 3px white;
+    font-size: 40px;
+}
+
+i {
+    color: #6e6e6e;
+}
+
+button:active {
+    box-shadow: none;
+    position: relative;
+    top: 2px;
+}
+
+.header {
+    width: 70%;
+    height: 2rem;
+    background-color: rgb(201, 201, 201);
+    padding: 23px 0 72px 110px;
+    border: 3px solid white;
+    border-bottom-left-radius: 10em;
+    border-bottom-right-radius: 10em;
+    text-transform: uppercase;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+}
